@@ -1,0 +1,46 @@
+{
+	"env": {
+		"browser": true,
+		"commonjs": true,
+		"es6": true,
+		"node": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:vue/recommended"
+	],
+	"parserOptions": {
+		"parser": "babel-eslint",
+		"ecmaVersion": 6,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true,
+			"experimentalObjectRestSpread": true
+		}
+	},
+	"rules": {
+		"arrow-parens": ["error", "as-needed"],
+		"no-multi-spaces": ["error", { "exceptions": { "ImportDeclaration": true } }],
+		"indent": [2, "tab", { "VariableDeclarator": { "var": 2, "let": 2, "const": 3 } }],
+		"no-tabs": 0,
+		"no-console": 0,
+		"no-underscore-dangle": 0,
+		"import/prefer-default-export": 0,
+		"import/no-extraneous-dependencies": 0,
+		"import/no-unresolved": 0,
+		"import/extensions": 0,
+		"quotes": 0,
+		"brace-style": [2, "1tbs"],
+		"comma-dangle": ["error", "always-multiline"],
+		"max-len": [2, 120],
+		"semi": [2, "always", { "omitLastInOneLineBlock": true }],
+		"no-cond-assign": [2, "except-parens"],
+		"func-names": 0,
+		"no-param-reassign": [2, { "props": false }],
+		"no-unused-vars": 1,
+		"no-confusing-arrow": 0,
+		"new-cap": 0,
+		"no-restricted-syntax": 0,
+		"vue/valid-v-if": "error"
+	}
+}

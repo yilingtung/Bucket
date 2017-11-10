@@ -1,0 +1,76 @@
+body {
+	font-family:
+		'Noto Sans TC',
+		'Roboto';
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+body.modal-open {
+	overflow: hidden;
+}
+
+a,
+a:active,
+a:focus {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 400;
+	line-height: 1.4;
+}
+
+hr {
+	clear: both;
+	width: 100%;
+	border: 0;
+	border-bottom: #DCDCD9 1px solid;
+}
+
+ul {
+	margin: 0;
+	margin-bottom: 30px;
+	padding: 0;
+}
+
+ul li {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10px;
+}
+
+ol li {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10px;
+}
+
+ul.no-list li {
+	list-style-type: none;
+}
+
+:focus {
+	/* stylelint-disable declaration-no-important */
+	outline: none !important;
+	/* stylelint-enable declaration-no-important */
+}
+
+div {
+	box-sizing: border-box;
+}
+
+button {
+	cursor: pointer;
+}
