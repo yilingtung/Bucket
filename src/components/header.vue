@@ -74,7 +74,7 @@ export default {
 		position: fixed;
 		top: 0;
 		z-index: 10;
-		color: var(--gray);
+		color: var(--grayDark);
 		height: 60px;
 
 		& .brand {
@@ -83,7 +83,7 @@ export default {
 			width: 50px;
 			height: 100%;
 			padding: 0 5px;
-			background-color: #F1F1F1;
+			background-color: var(--grayLight);
 
 			img {
 				width: 100%;
@@ -122,15 +122,15 @@ export default {
 				}
 
 				&.red {
-					background-color: #E07A5F;
+					background-color: var(--red);
 				}
 
 				&.yellow {
-					background-color: #F2CC8F;
+					background-color: var(--yellow);
 				}
 
 				&.green {
-					background-color: #81B29A;
+					background-color: var(--green);
 				}
 			}
 
